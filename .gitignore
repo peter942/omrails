@@ -18,3 +18,5 @@ doc/
 .project
 .DS_Store
 .idea
+ssh
+git push -u origin master
