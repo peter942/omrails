@@ -7,6 +7,8 @@ Omrails::Application.routes.draw do
 
   get 'contact' => 'pages#contact'
 
+  get 'login' => 'pages#login'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
