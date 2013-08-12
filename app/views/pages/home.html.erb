@@ -1,16 +1,31 @@
+ <% if user_signed_in? %>
+ 
+<div class="hero-unit">
+	<h1> Welcome to Peter's Wonderful App </h1>
+
+	<p> Thanks for signing in! You can see the below picture for all your hard work:</p>
+
+	<img src="http://sphotos-c.ak.fbcdn.net/hphotos-ak-ash4/398876_398130166877027_867390695_n.jpg" class="img-rounded">
+
+
+</div>
+
+<%else%> 
+
 <div class="hero-unit">
 	<h1> Welcome to Peter's Wonderful App </h1>
 
 	<p> To find out more (when I do), sign up below.</p>
 
 	<p> 
-		<%=link_to "Sign Up Now!", "http://www.onemonthrails.com", class: "btn btn-primary btn-large" %>
+		<%=link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
 
 
 	</p>
 
-	<img src="http://sphotos-c.ak.fbcdn.net/hphotos-ak-ash4/398876_398130166877027_867390695_n.jpg" class="img-rounded">
 
 
 </div>
+
+<%end%>
 
