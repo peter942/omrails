@@ -1,7 +1,5 @@
 Omrails::Application.routes.draw do
  
-  devise_for :views
-
   devise_for :users
 
     #get 'about' =>'pages' This was a mistake that I made which caused a dead-link on the home page. I failed to specify which page in pages to go to.
