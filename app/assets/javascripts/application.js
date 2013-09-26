@@ -11,7 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require bootstrap
 //= require jquery_ujs
-//= require masonry.pkgd.min.js
+//= require jquery.masonry.min.js
+//= require bootstrap
 //= require_tree .
